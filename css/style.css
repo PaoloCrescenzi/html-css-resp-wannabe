@@ -131,17 +131,52 @@ img {
 
 @media screen and (max-width: 768px) {
     .container{
-        width: 600px;
+        width: 100%;
+        padding: 0;
     }
 }
 
 @media screen and (max-width: 480px) {
     .container{
-        width: 480px;
+        width: 100%;
+        padding: 0;
+    }
+
+    img{
+        width: 100%;
+        display: block;
     }
 
     .row{
         flex-direction: column;
         align-items: center;
+    }
+
+    .why-us{
+        background-color: rgb(34, 34, 34);
+        margin: 0;
+    }
+
+    .steps{
+        margin-bottom: 0;
+
+    }
+
+    section{
+        width: 100%;
+    }
+
+    .why-us .container .text-center{
+        padding-top: 3rem;
+    }
+
+    .col-left,
+    .col-right,
+    .lessons .col{
+        width: 100%;
+    }
+
+    .row .col{
+        padding: ;
     }
 }
