@@ -172,11 +172,16 @@ img {
 
     .col-left,
     .col-right,
-    .lessons .col{
+    .lessons .col,
+    .steps .col{
         width: 100%;
     }
 
     .row .col{
         padding: ;
+    }
+
+    .row:last-child .card{
+        padding-top: 3rem;
     }
 }
